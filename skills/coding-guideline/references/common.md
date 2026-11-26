@@ -28,6 +28,10 @@ For example, a cohesive production file can grow from 300 to 320 lines.
 Split production files and functions by responsibility before exceeding their upper limits.
 Preserve error handling, validation, and cleanup during extraction.
 
+If a production file exceeds 500 lines before the task starts, get explicit user permission before refactoring it to meet the limit.
+If a production function exceeds 120 lines before the task starts, get explicit user permission before refactoring it to meet the limit.
+Without that permission, keep edits focused on the requested task.
+
 Count physical lines after formatting, including comments and empty lines.
 Measure a function from its declaration through its closing delimiter.
 Function limits apply to executable functions and methods.
@@ -38,6 +42,7 @@ Preserve logical-group spacing when reducing size.
 
 ### Line wrapping
 
+Wrap long lines in changed code as needed without asking for permission.
 Keep readable calls, parameter lists, and expressions on one line when they fit the 80-character target.
 Review longer lines and wrap at clear syntax boundaries where this improves readability.
 Indent each continuation level and keep ordinary code within 120 characters.
