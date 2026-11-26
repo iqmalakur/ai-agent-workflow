@@ -10,7 +10,7 @@ Test fixtures, mocks, stubs, helpers, and assertions receive the same care as im
 
 Follow applicable `AGENTS.md` instructions and project formatter or linter configuration.
 The references explain formatting, size, and reuse requirements.
-Examples demonstrate these rules and the project's language conventions.
+Examples demonstrate these rules. Their formatting choices are illustrative.
 
 ## Select references before writing
 
@@ -38,6 +38,12 @@ Shopify markup requires common, Liquid, and HTML guidance, plus any embedded lan
 For other languages, apply common rules and the project's language conventions.
 Add HTML or CSS guidance when changing markup or styles embedded in another language.
 Common rules also cover embedded GraphQL.
+
+## Resolve conflicts between references
+
+When references conflict over the same code, follow the more specific rule for the primary technology.
+Keep applying the other compatible rules.
+For example, Svelte-specific rules take priority over conflicting general JavaScript or TypeScript rules for Svelte code.
 
 ## Review before completion
 
