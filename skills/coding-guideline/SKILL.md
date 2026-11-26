@@ -1,6 +1,6 @@
 ---
 name: coding-guideline
-description: Use when writing, modifying, or reviewing code, including production code, tests, fixtures, mocks, stubs, test helpers, and embedded SQL, GraphQL, or HTML.
+description: Use when writing, modifying, or reviewing code, including production code, Svelte components, tests, fixtures, mocks, stubs, test helpers, and embedded SQL, GraphQL, or HTML.
 ---
 
 # Coding Guideline
@@ -21,6 +21,7 @@ Read every additional reference that applies to the code being changed.
 | --- | --- |
 | PHP | [PHP](references/php.md) |
 | JavaScript or TypeScript | [JavaScript and TypeScript](references/javascript-typescript.md) |
+| Svelte components (`.svelte`) and rune modules (`.svelte.js`, `.svelte.ts`) | [Svelte](references/svelte.md), plus JavaScript or TypeScript, HTML, and CSS for the sections being changed |
 | Go | [Go](references/go.md) |
 | SQL, including queries inside another language | [SQL](references/sql.md) |
 | HTML, including generated or embedded markup | [HTML](references/html.md) |
